@@ -1,0 +1,228 @@
+[Root]
+Most Recent Package=CalUtil
+
+
+[Package|CalUtil|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=I:\work\dfm\govcal\test\Package
+
+[Package|CalUtil|Configure DAO ISAMs]
+Applicable=No
+
+[Package|CalUtil|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|CalUtil|Files Found]
+
+[Package|CalUtil|Files Released]
+SSCSDK80.DLL=
+u25TOTAL.DLL=
+u25STORE.DLL=
+Crystal=
+
+[Package|CalUtil|Missing Dependency Information]
+C:\Program Files\Microsoft Office 2000\Office\MSOUTL9.OLB=
+
+[Package|CalUtil|Out-of-Date Dependency Information]
+
+[Package|CalUtil|Files Added]
+I:\work\dfm\govcal\test\CalUtility.doc=
+I:\work\dfm\govcal\test\cal3col.rpt=
+I:\work\dfm\govcal\test\calutil.mdb=
+I:\work\dfm\govcal\test\APPTL.ICO=
+
+[Package|CalUtil|Files Removed]
+
+[Package|CalUtil|Files In Project]
+I:\work\dfm\govcal\test\CalUtil.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office 2000\Office\MSOUTL9.OLB=Yes
+C:\WINNT\system32\cpeaut32.dll=Yes
+C:\WINNT\system32\crpe32.dll=Yes
+C:\WINNT\system32\implode.dll=Yes
+C:\WINNT\system32\Crpaig80.dll=Yes
+C:\WINNT\system32\MSVCRT.DLL=Yes
+C:\WINNT\system32\MFC42.DLL=Yes
+C:\WINNT\Crystal\Crxlat32.dll=Yes
+C:\WINNT\Crystal\p2bbde.dll=Yes
+C:\WINNT\system32\P2bbnd.dll=Yes
+C:\WINNT\system32\p2bdao.dll=Yes
+C:\WINNT\Crystal\p2bxbse.dll=Yes
+C:\WINNT\system32\p2ctdao.dll=Yes
+C:\WINNT\system32\p2irdao.dll=Yes
+C:\WINNT\Crystal\p2sifmx.dll=Yes
+C:\WINNT\system32\P2smon.dll=Yes
+C:\WINNT\system32\p2sodbc.dll=Yes
+C:\WINNT\Crystal\p2sora7.dll=Yes
+C:\WINNT\Crystal\p2ssql.dll=Yes
+C:\WINNT\Crystal\p2ssyb10.dll=Yes
+C:\WINNT\Crystal\p2soledb.dll=Yes
+C:\WINNT\Crystal\u2ddisk.dll=Yes
+C:\WINNT\Crystal\u2dmapi.dll=Yes
+C:\WINNT\Crystal\u2dnotes.dll=Yes
+C:\WINNT\Crystal\u2dpost.dll=Yes
+C:\WINNT\Crystal\u2dvim.dll=Yes
+C:\WINNT\Crystal\u2dapp.dll=Yes
+C:\WINNT\Crystal\u2fcr.dll=Yes
+C:\WINNT\Crystal\u2fhtml.dll=Yes
+C:\WINNT\Crystal\u2fodbc.dll=Yes
+C:\WINNT\Crystal\u2frec.dll=Yes
+C:\WINNT\Crystal\u2frtf.dll=Yes
+C:\WINNT\Crystal\u2fsepv.dll=Yes
+C:\WINNT\Crystal\u2ftext.dll=Yes
+C:\WINNT\Crystal\u2fwks.dll=Yes
+C:\WINNT\Crystal\u2fwordw.dll=Yes
+C:\WINNT\Crystal\u2fxls.dll=Yes
+C:\WINNT\Crystal\u25dts.dll=Yes
+C:\WINNT\Crystal\u2l2000.dll=Yes
+C:\WINNT\Crystal\u2lbar.dll=Yes
+C:\WINNT\Crystal\u2lcom.dll=Yes
+C:\WINNT\Crystal\u2ldts.dll=Yes
+C:\WINNT\Crystal\u2lsamp1.dll=Yes
+C:\WINNT\Crystal\u252000.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\VBAJET32.DLL=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\Crystl32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+I:\work\dfm\govcal\test\CalUtility.doc=Yes
+I:\work\dfm\govcal\test\cal3col.rpt=Yes
+I:\work\dfm\govcal\test\calutil.mdb=Yes
+I:\work\dfm\govcal\test\APPTL.ICO=Yes
+
+[Package|CalUtil|Configure Registry Files]
+Applicable=No
+
+[Package|CalUtil|Configure Remote Servers]
+Applicable=No
+
+[Package|CalUtil|Install Locations]
+I:\work\dfm\govcal\test\CalUtil.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office 2000\Office\MSOUTL9.OLB=$(WinSysPath)
+C:\WINNT\system32\cpeaut32.dll=$(WinSysPath)
+C:\WINNT\system32\crpe32.dll=$(WinSysPath)
+C:\WINNT\system32\implode.dll=$(WinSysPath)
+C:\WINNT\system32\Crpaig80.dll=$(WinSysPath)
+C:\WINNT\system32\MSVCRT.DLL=$(WinSysPath)
+C:\WINNT\system32\MFC42.DLL=$(WinSysPath)
+C:\WINNT\Crystal\Crxlat32.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2bbde.dll=$(WinSysPath)
+C:\WINNT\system32\P2bbnd.dll=$(WinSysPath)
+C:\WINNT\system32\p2bdao.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINNT\system32\p2ctdao.dll=$(WinSysPath)
+C:\WINNT\system32\p2irdao.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2sifmx.dll=$(WinSysPath)
+C:\WINNT\system32\P2smon.dll=$(WinSysPath)
+C:\WINNT\system32\p2sodbc.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2sora7.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2ssql.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2soledb.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dpost.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dvim.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2frec.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2frtf.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fwks.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fxls.dll=$(WinSysPath)
+C:\WINNT\Crystal\u25dts.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2l2000.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2lbar.dll=$(AppPath)
+C:\WINNT\Crystal\u2lcom.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2ldts.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2lsamp1.dll=$(WinSysPath)
+C:\WINNT\Crystal\u252000.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\Crystl32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+I:\work\dfm\govcal\test\CalUtility.doc=$(AppPath)
+I:\work\dfm\govcal\test\cal3col.rpt=$(AppPath)
+I:\work\dfm\govcal\test\calutil.mdb=$(AppPath)
+I:\work\dfm\govcal\test\APPTL.ICO=$(AppPath)
+
+[Package|CalUtil|Configure Shared Files]
+Applicable=Yes
+I:\work\dfm\govcal\test\CalUtil.exe=No
+C:\WINNT\Crystal\u2lbar.dll=No
+I:\work\dfm\govcal\test\CalUtility.doc=No
+I:\work\dfm\govcal\test\cal3col.rpt=No
+I:\work\dfm\govcal\test\calutil.mdb=No
+I:\work\dfm\govcal\test\APPTL.ICO=No
+
+[Package|CalUtil|Distribution]
+Type=single
+Size=
+Title=CalUtil
+
+[Package|CalUtil|IconGroups]
+Group0=CalUtil
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|CalUtil|CalUtil]
+Icon1=CalUtil.exe
+Title1=CalUtil
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|CalUtil|Package]
+PackageFolder=I:\work\dfm\govcal\test\Package
+ProjectFolder=I:\work\dfm\govcal\test
+ServerSideCab=
+File1=I:\work\dfm\govcal\test\Package\setup.exe
+File2=I:\work\dfm\govcal\test\Package\Setup.Lst
+File3=I:\work\dfm\govcal\test\Package\CalUtil.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

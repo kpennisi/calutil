@@ -1,0 +1,52 @@
+Got errors registering mscomct2.ocx.  This worked:
+
+
+The error value 0x8002801c means, Error accessing the OLE (Object Linking and Embedding) registry. You need to copy the MSCOMCT2.OCX file to c:\windows\sysWOW64 not c:\windows\system32. 
+ 
+     Run the command with elevated privileges, to do this, follow the steps below:
+i.        Click on start and in the start search bar type CMD, right click on the command prompt icon in the programs area and then click on run as administrator. 
+ii.      At the command prompt type regsvr32 wmnetmgr.dll and then press enter. 
+ 
+ Note: Make sure you are running the computer as administrator.
+     Make sure you have logged in as administrator of the computer. To verify your account type on your computer, follow these steps: 
+i.           Click Start.  
+ii.         Click Control Panel, and then click User Accounts. 
+ 
+·         If you are not part of a network domain, follow these steps: 
+i.           From the User Accounts window, click User Accounts. 
+ii.         Look at your user account icon, your account type is displayed under your user name.  
+ 
+*************************************************************
+Get error msg "Cannot find database dll when trying to run report: 
+
+
+When deploy the application in VB.6 and Crystal report, please include the following dll files to register. It should be register in system32 directory. 
+
+
+p2irdao.dll
+p2bdao.dll
+p2ctdao.dll
+p2sodbc.dll
+
+****************************************
+
+Outlook version How type library appears in references list Filename 
+Outlook 97 "Microsoft Outlook 8.0 Object Library" msoutl8.olb 
+msoutl8.olb "Microsoft Outlook 98 Object Library" msoutl85.olb 
+Outlook 2000 "Microsoft Outlook 9.0 Object Library" msoutl9.olb 
+Outlook 2002 "Microsoft Outlook 10.0 Object Library" msoutl.olb 
+Office Outlook 2003 "Microsoft Outlook 11.0 Object Library" msoutl.olb 
+
+
+*************************************************************************
+
+Error: Server execution failed trying to create outlook object
+
+This same error was happening to me.  The problem was because I was running Visual Studio as an Administrator.  
+Changing Outlook to run as admin, or changing VS to not run as admin fixed the problem.
+
+To get the “old style” menu back which you got when right clicking an item on the Taskbar, 
+you must now press and hold the SHIFT button on your keyboard when right clicking the item.
+
+Another method in Windows 7 to start an application as administrator but without opening the 
+classic right click menu first is to hold CTRL+SHIFT when clicking on the Outlook icon
